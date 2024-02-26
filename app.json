@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/concerning/concerning",
+    "pages/Test/Test"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "二四年式Cina制",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+    "tabBar": {
+      "color": "#999", 
+      "selectedColor": "#000", 
+      "backgroundColor": "#fff", 
+      "borderStyle": "black", 
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "images/home.png",
+          "selectedIconPath": "images/home-active.png"
+        },
+        {
+          "pagePath": "pages/Test/Test",
+          "text": "测试",
+          "iconPath": "images/FFXIVMeteo.png",
+          "selectedIconPath": "images/FFXIVMeteo-active.png"
+        },
+        {
+          "pagePath": "pages/concerning/concerning",
+          "text": "关于",
+          "iconPath": "images/concerning.png",
+          "selectedIconPath": "images/concerning-active.png"
+        }
+      ]
+    },
+    "lazyCodeLoading": "requiredComponents"
+}
